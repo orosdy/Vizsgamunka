@@ -1,0 +1,71 @@
+<section class="Font2">
+
+    <a routerLink="/fooldal" class="w3-button w3-black" *ngIf="router.url == '/fulciromero'">&laquo; Főoldal</a>&nbsp;
+    <a routerLink="/konyv" class="w3-button w3-black" *ngIf="router.url == '/fulciromero'">&laquo; Összes könyv</a>
+
+    <div class="container">
+        <h1>Orosdy Dániel - Schreiber András: </h1>
+        <h2>A modern horror mesterei - Lucio Fulci & George A. Romero</h2>
+    </div>
+
+    <div class="accordion col-sm-6" id="accordionFR">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h3 class="mb-0">
+                    <button class="btn btn-outline-dark" type="button" data-toggle="collapse" 
+                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        A könyvről
+                    </button>
+                </h3>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" 
+            data-parent="#accordionFR">
+                <div class="card-body">
+                    <i>A modern horror mesterei</i> révén az olvasó képet kaphat a horror alműfajainak, különösen a zombihorrornak 
+                    a fejlődéséről, valamint a színes egyéniségű filmesekhez és sajátos mozijaikhoz kapcsolódó 
+                    anekdotákról. A tudományos igényességgel megírt esszékben számtalan kevésbé ismert, de 
+                    figyelemreméltó mű, alkotó, stílus, irányzat és fogalom is szóba kerül.
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h3 class="mb-0">
+                    <button class="btn collapsed btn-outline-dark" type="button" data-toggle="collapse" 
+                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Az első tanulmányról
+                    </button>
+                </h3>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" 
+            data-parent="#accordionFR">
+                <div class="card-body">
+                    A <i>Kapuk a Túlvilágra – Lucio Fulci élete, pályája és filmjei</i>vel Orosdy Dániel arra 
+                    keresi a választ, hogy vajon tényleg „csak” horrorrendező volt-e Fulci, tekinthetjük-e 
+                    többnek megbízható iparosnál, és vajon érdemes-e egyáltalán felfedezni a munkáit?
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h3 class="mb-0">
+                    <button class="btn collapsed btn-outline-dark" type="button" data-toggle="collapse" 
+                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        A második tanulmányról
+                    </button>
+                </h3>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" 
+            data-parent="#accordionFR">
+                <div class="card-body">
+                    A <i>George A. Romero, a zombikirály – Csonka portré</i>val Schreiber András elsősorban 
+                    Romero társadalomkritikus felfogását veszi szemügyre közelebbről, kitérve a zombifilm 
+                    műfajának genezisére, és a rendező egyes művei közti tartalmi és témabeli összefüggésekre.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    
+</section>

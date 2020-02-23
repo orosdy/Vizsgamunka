@@ -1,0 +1,16 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+.example-card {
+    max-width: 400px;
+    width: 75%;
+    margin: 10px auto;
+}
+
+.w3-button {
+    float: right;
+}
+
+img {
+    display: block;
+    margin: 50px auto;
+}

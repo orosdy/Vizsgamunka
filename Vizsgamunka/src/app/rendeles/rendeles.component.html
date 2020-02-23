@@ -1,0 +1,19 @@
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <a routerLink="/login" class="w3-button w3-indigo w3-round-xxlarge btn-lg">Belépés</a>
+      <h1 class="display-1">Rendeljen tőlünk!
+        <span>Nekünk nyugodtan <i>bedőlhet!</i></span>
+      </h1>
+      <a routerLink="/fooldal" class="w3-button w3-black my-2">&laquo; Főoldal</a>
+    </div>
+  </div>
+  
+<div class="container">
+    <div class="row my-4">
+        <button (click)="TermekListazas()" class="btn w3-aqua mr-5">Terméklista</button> &nbsp;
+        <button (click)="TermekHozzaadasa()" class="btn btn-warning" data-toggle="tooltip" 
+        title="Termék hozzáadásához lépjen be a 'Belépés' gombbal!" disabled>Hozzáadás</button>
+    </div>
+</div>
+
+<app-lista></app-lista>

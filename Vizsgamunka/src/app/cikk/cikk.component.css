@@ -1,0 +1,135 @@
+/*********************
+        DEFAULT
+**********************/
+
+section {
+    background-color: #B1A296;
+    background-image: url(../../assets/images/hatter/kisspng.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-rendering: optimizeLegibility;
+}
+
+/*********************
+        NAV
+**********************/
+
+.navbar {
+    border: 1px solid black;
+}
+
+#furaikon {
+    vertical-align: middle;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.main-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    padding: 7px 0;
+    line-height: 100%;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #0a157e;
+    transition: .2s;
+}
+
+.badge {
+    vertical-align: top;
+    font-size: 10px;
+}
+
+#Dropdown {
+    color: #fff;
+}
+
+.dropdown-menu {
+    padding: 0px;
+}
+
+.dropdown-item {
+    background-color: #5e5c5c;
+}
+
+/*********************
+      Filmanatómia
+**********************/
+
+#kattintson {
+    font-size: larger;
+}
+
+h1 {
+    text-align: center;
+    background-image: url("../../assets/images/textura/billie-holiday.png");
+}
+
+div.container {
+    background-image: url("../../assets/images/textura/billie-holiday.png");
+    overflow: auto;
+}
+
+img {
+    height: 250px;
+}
+
+#right {
+    float: right;
+}
+
+#left {
+    float: left;
+}
+
+.whitespace {
+    height: 75px;
+    visibility: hidden;   
+}
+
+p {
+    text-align: justify;
+}
+
+/*********************
+      Egyebek
+**********************/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.folyo {
+    height: 100px;
+}
+
+.konyv {
+    height: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+    #blogom {
+        width: 450px;
+        height: 161px;
+    }
+}

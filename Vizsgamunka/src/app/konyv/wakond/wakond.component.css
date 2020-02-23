@@ -1,0 +1,73 @@
+header {
+    background-image: linear-gradient( rgba(119, 116, 116, 0.5),rgba(61, 59, 59, 0.5) ), url("../../../assets/images/hatter/wakond 3d.png");
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    background-color: rgb(52, 147, 211);
+    font-size: 18px;
+    text-rendering: optimizeLegibility;
+}
+
+h3 {
+    font-size: 150%;
+    font-weight: bold; 
+    text-align: center;
+}
+
+div.container {
+    background-image: url("../../../assets/images/textura/billie-holiday.png");
+}
+
+#idezet {
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 120%;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+blockquote {
+    font-weight: bold;
+    font-size: 120%;
+    text-align: justify;
+}
+
+#sotet {
+    color: #000;
+    font-weight: bold;
+}
+
+.kritikak {
+    background-image: linear-gradient( rgba(240, 226, 226, 0.5),rgba(0,0,0,0.7) ), url("../../../assets/images/hatter/newspapers2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px 0;
+}
+
+.card-deck {
+    margin: 0px;
+}
+
+.card-title {
+    color: #000;
+}
+
+.card {
+    min-width: 350px;
+    max-width: 500px;
+    margin: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+h4 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 120%;
+    text-align: justify;
+}

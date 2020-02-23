@@ -1,0 +1,27 @@
+<div class="col-md-6">
+    <h2 class="text-center">Termék módosítása</h2>
+    <form [formGroup]="modositasForm" (ngSubmit)="onSubmit()" novalidate class="form">
+      <div class="form-group">
+        <label for="termekid">Sorszám:</label>
+        <input type="number" formControlName="id" placeholder="Sorszám" name="termekid" class="form-control" id="termekid" disabled>
+      </div>
+  
+      <div class="form-group">
+        <label for="szerzoNev">Szerző neve:</label>
+        <input formControlName="szerzo_nev" placeholder="Szerző neve" name="szerzoNev" class="form-control" id="szerzoNev">
+      </div>
+  
+      <div class="form-group">
+        <label for="termekCim">Termék címe:</label>
+        <input formControlName="termek_cim" placeholder="Termék címe" #termcim name="termek_cim" class="form-control"
+          id="termek_cim">
+      </div>
+
+      <div class="form-group">
+        <label for="ar">Ár:</label>
+        <input formControlName="ar" placeholder="Ár" name="ar" class="form-control" id="ar">
+      </div>
+      <button class="btn btn-success" [disabled]='modositasForm.invalid'>Módosítás</button>&nbsp;
+      <a routerLink="/rendeles" class="w3-button w3-black my-2">&laquo; Vissza a Rendelés oldalra</a>
+    </form>
+  </div>

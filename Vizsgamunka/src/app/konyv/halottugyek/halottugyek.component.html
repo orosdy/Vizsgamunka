@@ -1,0 +1,46 @@
+<div class="halottugyek Font2">
+
+    <br>
+
+    <a routerLink="/fooldal" class="w3-button w3-black" *ngIf="router.url == '/halottugyek'">&laquo; Főoldal</a>&nbsp;
+    <a routerLink="/konyv" class="w3-button w3-black" *ngIf="router.url == '/halottugyek'">&laquo; Összes könyv</a>
+    
+    <h1 id="cim">Orosdy Dániel: Halott ügyek</h1>
+    <h3 id="ill">Illusztrációk: Merényi Dániel</h3>
+
+    <div class="container">
+
+        <div class="carousel slide" data-ride="carousel">
+            <h4>Pár velősebb vélemény:</h4>
+
+            <div class="carousel-inner" role="listbox">
+                <img class="d-block" src="{{ getSlide() }}" alt="slide">
+            </div>
+          
+            <div class="btn-group d-block text-center">
+                <button (click)='getPrev()' type="button" class="btn btn-primary mb-2">Előző</button>
+                <button (click)='getNext()' type="button" class="btn btn-primary mb-2">Következő</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <br>
+
+    <div class="container" id="alerthelyett">
+        <a href="https://danielorosdy.blog.hu/2012/09/01/halott_ugyek" class="alert-link" id="kattint" target="_blank">
+            Ide kattintva tájékozódhat a könyvről.
+        </a>
+    </div>
+
+    <br>
+
+    <div class="alert alert-warning alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <strong>Vigyázat!</strong> A kötet már csak korlátozott példányszámban kapható!
+    </div>
+
+    <br>
+
+</div>

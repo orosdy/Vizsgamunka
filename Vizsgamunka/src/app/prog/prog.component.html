@@ -1,0 +1,74 @@
+<header class="Font3">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a href="https://en.wikipedia.org/wiki/Front-end_web_development" class="navbar-brand" target="_blank">
+            <img src="../assets/images/rsz_markus-spiske-cvbbo4pzwpg-unsplash.jpg" alt="code" 
+            style="height: 80px">
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#navmain" aria-controls="navmain" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="main-nav collapse navbar-collapse" id="navmain">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-2">
+                    <a routerLink="/fooldal" class="nav link">
+                        <ion-icon name="information-circle-outline"></ion-icon>&nbsp;FŐOLDAL&nbsp;
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link" id="Dropdown" 
+                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <ion-icon name="book" id="furaikon"></ion-icon>&nbsp;Könyvek&nbsp;<span class="badge badge-light">katt</span>
+                    </a>
+                    <div aria-labelledby="Dropdown" class="dropdown-menu">
+                        <a routerLink="/wakond" class="dropdown-item">&nbsp;Wakond</a>
+                        <a routerLink="/halottugyek" class="dropdown-item">&nbsp;Halott ügyek</a>
+                        <a routerLink="/fulciromero" class="dropdown-item">&nbsp;Fulci & Romero</a>
+                        <a routerLink="/konyv" class="dropdown-item">&nbsp;<i>Összes</i></a>
+                    </div>
+                </li>
+                <li class="nav-item mr-2">
+                    <a routerLink="/cikk" class="nav link">
+                        <ion-icon name="create"></ion-icon>&nbsp;ESSZÉK, CIKKEK...
+                    </a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a routerLink="/jog" class="nav link">
+                        <ion-icon name="folder-open"></ion-icon>&nbsp;JOG...
+                    </a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a routerLink="/rendeles" class="nav link">
+                        <ion-icon name="heart"></ion-icon><b>RENDELÉS!</b>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <p>Jelenleg a <a href="http://helixlab.hu/" target="_blank">HelixLab</a> tanfolyama keretében programozni tanulok. <br>
+        Ez a weboldal is a vizsgamunkám része (frontend). <br>
+        Bízom benne, hogy a képzés végén el tudok majd helyezkedni programozóként. <br>
+        A képzés két részből áll, nemsokára az ún. backend elsajátítása következik. <br>
+        Úgy gondolom, legjobb esetben május végére nevezhetem majd magam kezdő programozónak.</p>
+            <div id="visszasz">
+                <h1>Hátralévő idő:</h1>
+                <h2>
+                    <countdown units="Month | Days | Hours | Minutes | Seconds" end="May 31, 2020" [text]="text"></countdown>
+                </h2>
+            </div>
+    </div>
+
+    <div id="logo">
+        <a href="http://helixlab.hu/" target="_blank">
+            <img alt="helixlab" src="../assets/images/helixlab.png" id="logokep">
+        </a>
+    </div>
+
+</header>

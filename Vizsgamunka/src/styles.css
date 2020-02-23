@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+@import url('https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.Font1 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+.Font2 {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-weight: 500;
+}
+
+.Font3 {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.Font4 {
+  font-family: 'Lato', sans-serif;
+}
+
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: auto !important;
+}

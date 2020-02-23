@@ -1,0 +1,194 @@
+<section>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <button type="button" class="btn btn-info btn-lg" 
+        data-toggle="modal" data-target="#myModal">Rövid életrajz</button>
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Orosdy Dániel</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>2004 óta publikál filmkritikákat és filmes témájú esszéket a nyomtatott sajtóban (Filmvilág, Mozinet, Prizma, 
+                        HBO Sztár, Univ Pécs) és az interneten (Sokk Magazin, film.hu, Prae portál, Kistangó etc.). A Pendulum Editor 
+                        munkatársaként több filmes témájú könyv szerkesztésében is közreműködött (Mark Cotta Vaz: <i>LOST – Az eltűntek 
+                        krónikája</i>, <i>Az 501 legfontosabb film, amit mindenképpen látnod kell</i>). 2008 és 2010 között a PTE filmszakán a 
+                        Filmkritika kurzus előadója. Életét a lehetetlen küldetésekre tette fel (pl. a William Friedkin-életmű 
+                        rehabilitálása, Bud Spencer és Terence Hill vígjátékainak beemelése a kánonba, alapvető udvariassági és 
+                        etikai normák érvényesítése a mindennapi életben). <i>Halott ügyek</i> című szatirikus regénye 2012-ben jelent meg, 
+                        Schreiber Andrással közösen jegyzett dupla monográfiája (<i>A modern horror mesterei: Lucio Fulci & George A. 
+                        Romero</i>) 2014-ben. 2019-ben a <i>Wakond</i> című bűnügyi regénnyel jelentkezett, melynek társszerzője az említett 
+                        kötetek megjelenéséért is felelős Merényi "Grafitember" Dániel, a Napirajz alkotója.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zárás</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="navbar-brand"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#navmain" aria-controls="navmain" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="main-nav collapse navbar-collapse" id="navmain">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-2">
+                    <a routerLink="/fooldal" class="nav link">
+                        <ion-icon name="information-circle-outline"></ion-icon>&nbsp;FŐOLDAL...</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link" id="Dropdown" 
+                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <ion-icon name="book" id="furaikon"></ion-icon>&nbsp;KÖNYVEK&nbsp;<span class="badge badge-light">katt</span>
+                    </a>
+                    <div aria-labelledby="Dropdown" class="dropdown-menu">
+                        <a routerLink="/wakond" class="dropdown-item">&nbsp;Wakond</a>
+                        <a routerLink="/halottugyek" class="dropdown-item">&nbsp;Halott ügyek</a>
+                        <a routerLink="/fulciromero" class="dropdown-item">&nbsp;Fulci & Romero</a>
+                        <a routerLink="/konyv" class="dropdown-item">&nbsp;<i>Összes</i></a>
+                    </div>
+                </li>
+                <li class="nav-item mr-2">
+                    <a routerLink="/prog" class="nav link">
+                        <ion-icon name="code-working"></ion-icon>&nbsp;PROGRAMOZÁS...</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a routerLink="/jog" class="nav link">
+                        <ion-icon name="folder-open"></ion-icon>&nbsp;JOG...</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a routerLink="/rendeles" class="nav link">
+                        <ion-icon name="heart"></ion-icon><b>RENDELÉS!</b></a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <br>
+
+    <button class="btn btn-primary" id="kattintson" type="button" data-toggle="collapse" 
+    data-target="#collapseAnat" aria-expanded="false" aria-controls="collapseAnat">
+        A Filmanatómia sorozatról (kattintson!)
+    </button>
+
+    <br>
+
+    <div class="collapse" id="collapseAnat">
+        <div class="card card-body">
+            A Kultúrbarlang-Mozinet filmművészeti könyvsorozata. (A Mozinet Könyvek folytatásának tekinthető.)<br>
+            A sorozat 10 kötetesre van tervezve, s a műfai filmes típusok bemutatását célozza meg.<br>
+            <br>
+            <u> Megjelent kötetek:</u>
+            <br>
+            <ol>
+                <li>
+                    Kárpáti György: <i> Címlapsztori - Az újságírószerep változása az amerikai hangosfilmben</i> 
+                    (Kultúrbarlang, Budapest, 2015)
+                </li>
+                <li>
+                    Kárpáti György – Schreiber András (szerk.): <i>A horrorfilm - Válogatott tanulmányok</i> 
+                    (Kultúrbarlang, Budapest, 2015)
+                </li>
+                <li>
+                    Kárpáti György – Schreiber András (szerk.): <i>A sci-fi - Válogatott tanulmányok</i> 
+                    (Kultúrbarlang, Budapest, 2016)
+                </li>
+                <li>
+                    Kárpáti György – Schreiber András (szerk.): <i>Az akciófilm - Válogatott tanulmányok</i> 
+                    (Kultúrbarlang, Budapest, 2017)
+                </li>
+                <li>
+                    Kárpáti György (szerk.): <i>A vígjáték - Válogatott tanulmányok</i> 
+                    (Kultúrbarlang, Budapest, 2018)
+                </li>
+                <li>
+                    Kárpáti György (szerk.): <i>A képregényfilm (előkészületben, 2020)</i>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <br>
+
+    <h1 class="p-3">Az Orosdy Dániel közreműködésével megjelent kötetek:</h1>
+
+    <div class="container">
+        <img src="../assets/images/filmanatomia/Filmanatomia2_covers_371184.jpg" alt="f2" id="right" class="m-3">
+        <p class="m-3"><b>A Filmanatómia sorozat második kötete a horror műfajt járja körbe. Válogatott tanulmányok mutatják be 
+        a horror műfajtörténetét, alműfajait, beszélnek a legismertebb monstrumokról, és a franchise-rendszerről, 
+        ismertetik a horror vallással, és zenével való kapcsolatát. Rajongók és laikusok számára egyaránt emlékezetes 
+        olvasmány, a világhírű rendező, George A. Romero ajánlásával és előszavával.</b></p>
+    </div>
+    <br>
+    <div class="container">
+        <img src="../assets/images/filmanatomia/Filmanatomia3_covers_414827.jpg" alt="f3" id="left" class="m-3">
+        <p class="m-3"><b>A Filmanatómia-sorozat harmadik kötete a sci-fi műfaját járja körbe. Válogatott tanulmányok mutatják be a 
+        tudományos-fantasztikus film műfajtörténetét, alműfajait, beszélnek a legismertebb sci-fikről és a 
+        franchise-rendszerről, ismertetik a fantasztikus film vallással való kapcsolatát. Roswellről éppúgy szó esik, 
+        mint az inváziós filmekről vagy a cyberpunkról, a népszerű zsánerrendezőkről és szerzői filmesekről, de a 
+        kötet bemutatja a science fiction gazdag hagyományait is a magyar animációs filmben.</b></p>
+    </div>
+    <br>
+    <div class="container">
+        <img src="../assets/images/filmanatomia/Filmanatomia4_covers_458081.jpg" alt="f4" id="right" class="m-3">  
+        <p class="m-3"><b>A Filmanatómia sorozat negyedik kötete az akciófilm műfajt járja körbe. Válogatott tanulmányok mutatják be az 
+        akciófilm műfajtörténetét, alműfajait, beszélnek az amerikai akcióhősről, és a franchise-rendszerről, ismertetik 
+        az akciófilm európai és ázsiai hagyományait, külön kiemelve a kelet-európai és hongkongi akciófilmet. 
+        A kötetben szerepel két interjú: András Ferenc filmrendezővel, aki a <i> Dögkeselyű</i> című kultakciófilmet 
+        készítette; valamint Andrew G. Vajnával, aki a <i>Rambo-</i>, a <i>Terminátor-</i> és a <i>Die Hard-</i>sorozatban is 
+        közreműködött producerként. Rajongók és laikusok számára egyaránt emlékezetes olvasmány.</b></p>
+    </div>
+    <br>
+    <div class="container">
+        <img src="../assets/images/filmanatomia/Filmanatomia5_covers_509733.jpg" alt="f5" id="left" class="m-3">
+        <p class="m-3"><b>A Filmanatómia sorozat ötödik kötete a vígjáték műfajt járja körbe. A kötetben a zsáner társadalomtörténeti 
+        áttekintése mellett szó esik a vígjáték-franchise-okról, a <i>Rendőrakadémiá</i>tól és a <i>Reszkessetek, betörők!</i>-től 
+        kezdve az <i>Amerikai pité</i>n és a <i>Bridget Jones</i>-filmeken át a <i>Másnaposok</i>-szériáig bezárólag. A burleszkkel, 
+        tinivígjátékokkal, screwball comedy-kel külön tanulmányok foglalkoznak, csakúgy mint az abszurd humor 
+        nagyágyúival, a Monty Python-társulattal. Egy fejezet pedig Bud Spencer és Terrence Hill vígjáték-sikereit 
+        járja körbe. A második világháború utáni magyar vígjátékról külön szó esik, és a hazai vonalat erősíti a 
+        Tímár Péter filmrendezővel készült interjú, aki az <i>Egészséges erotika</i>, a <i>Csinibaba</i>, vagy a <i>Zimmer Feri</i> révén 
+        egyike a műfaj legjelentősebb hazai képviselőjének. Rajongók és laikusok számára egyaránt emlékezetes 
+        olvasmány.</b></p>
+    </div>
+
+    <div class="container whitespace"></div>
+
+    <h1 class="display-4 p-3">Folyóiratok, blogok, egyebek:</h1>
+    <br>
+    <div class="flex-container">
+        <a href="http://filmvilag.hu/" target="_blank">
+            <img alt="filmvilag" src="../assets/images/cikkegyeb/filmvilag.jpg" class="folyo m-3">
+        </a>
+        <a href="http://filmvilag.blog.hu/" target="_blank">
+            <img alt="filmvilag-blog" src="../assets/images/cikkegyeb/filmvilag_blog.jpg" class="folyo m-3">
+        </a>
+        <a href="http://www.mozinetmagazin.hu/kezdolap" target="_blank">
+            <img alt="mozinet" src="../assets/images/cikkegyeb/mozinet.jpg" class="folyo m-3">
+        </a>
+    </div>
+    <div class="flex-container">
+        <a href="https://moly.hu/konyvek/mark-cotta-vaz-lost-az-eltuntek-kronikaja" target="_blank">
+            <img alt="lost" src="../assets/images/cikkegyeb/lost.jpg" class="konyv m-3">
+        </a>
+        <a href="https://moly.hu/konyvek/az-501-legfontosabb-film-amit-mindenkeppen-latnod-kell" target="_blank">
+            <img alt="legfontosabb" src="../assets/images/cikkegyeb/legfontosabb.jpg" class="konyv m-3">
+        </a>
+        <a href="https://geekz.444.hu/2007/10/23/grindhouse_1" target="_blank">
+            <img alt="grindhouse" src="../assets/images/cikkegyeb/grindhouse.jpg" class="konyv m-3">
+        </a>
+    </div>
+    <div class="flex-container">
+    <a href="https://danielorosdy.blog.hu/" target="_blank">
+        <img alt="blogom" src="../assets/images/cikkegyeb/blogom.png" class="m-3" id="blogom">
+    </a>
+    </div>
+    <div class="container whitespace">
+    </div>
+</section>

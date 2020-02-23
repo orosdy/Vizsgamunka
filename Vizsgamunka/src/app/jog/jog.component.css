@@ -1,0 +1,123 @@
+/*********************
+        DEFAULT
+**********************/
+
+header {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    background-image: linear-gradient( rgba(182, 176, 176, 0.5),rgba(0,0,0,0.7) ), url("../../assets/images/hatter/courtroom-898931_1920.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/*********************
+          NAV
+**********************/
+
+#parag {
+    border-radius: 50%;
+}
+
+#furaikon {
+    vertical-align: middle;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.main-nav li a {
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    padding: 7px 0;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid blanchedalmond;
+    transition: .2s;
+}
+
+.badge {
+    vertical-align: top;
+    font-size: 10px;
+}
+
+#Dropdown {
+    color: blanchedalmond;
+}
+
+.dropdown-menu {
+    padding: 0px;
+}
+
+.dropdown-item {
+    background-color: #5e5c5c;
+}
+
+/*********************
+        OLDAL
+**********************/
+
+p {
+    background-image: url("../../assets/images/textura/fortyfive-degree.png");
+    padding: 20px 15px;
+    color: blanchedalmond;
+    text-align: justify;
+}
+
+div p a {
+    color: burlywood;
+}
+
+.whitespace {
+    height: 110px;
+    visibility: hidden;   
+}
+
+@media only screen and (max-width: 992px) {
+    .whitespace {
+        height: 70px;
+        visibility: hidden;   
+    }
+    div p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    div p {
+        font-size: 16px;
+    }
+}
+
+/*********************
+        ANIMÁCIÓ
+**********************/
+
+@keyframes learn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+   }
+   
+   div {
+    animation-name: learn;
+    animation-duration: 6s;
+    border-radius: 90px;
+   }

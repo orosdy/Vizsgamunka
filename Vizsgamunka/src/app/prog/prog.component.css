@@ -1,0 +1,157 @@
+/*********************
+        DEFAULT
+**********************/
+
+header {
+    background-color: #fff;
+    color: #555;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    background-image: linear-gradient( rgba(110, 102, 102, 0.5),rgba(0,0,0,0.7) ), url("../../assets/images/hatter/rsz_11fernando-hernandez-jdoofvuduwc-unsplash_cut.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/*********************
+        NAV
+**********************/
+
+#furaikon {
+    vertical-align: middle;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.main-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    padding: 7px 0;
+    text-transform: uppercase;
+    line-height: 100%;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #fff;
+    transition: .2s;
+}
+
+.badge {
+    vertical-align: top;
+    font-size: 10px;
+}
+
+#Dropdown {
+    color: #fff;
+}
+
+.dropdown-menu {
+    padding: 0px;
+}
+
+.dropdown-item {
+    background-color: #5e5c5c;
+}
+
+/*********************
+        OLDAL
+**********************/
+
+h1, h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #fff;
+    font-size: 220%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2:after {
+    content: " ";
+    display: block;
+    background-color: #fff;
+    width: 300px;
+    height: 2px;
+    margin: 20px auto 0 auto;
+}
+
+p {
+    background-image: url("../../assets/images/textura/fortyfive-degree.png");
+    padding: 20px 15px;
+    color: blanchedalmond;
+}
+
+#logo {
+    position: absolute;
+    top: 75%;
+    left: 3%;
+}
+
+#logokep {
+    height: 150px;
+}
+
+@media only screen and (max-width: 890px) {
+    p {
+        font-size: 80%;
+      }
+    h1 {
+        font-size: 150%;
+    }
+    h2 {
+        font-size: 120%;
+    }
+    #logokep {
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    h1 {
+        text-align: center;
+    }
+    #logo {
+        position: absolute;
+        top: 82%;
+        left: 3%;
+    }
+    #logokep {
+        height: 100px;
+    }
+}
+/*********************
+        ANIMÁCIÓ
+**********************/
+
+p:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+#visszasz:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+}

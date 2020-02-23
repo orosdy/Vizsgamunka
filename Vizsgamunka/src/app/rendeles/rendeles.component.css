@@ -1,0 +1,7 @@
+span {
+    font-size: small;
+}
+
+h1:hover {
+    transform: rotateZ(-15deg);
+}

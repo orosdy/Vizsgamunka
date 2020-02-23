@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "szerzo_nev": "Orosdy Dániel",
+      "termek_cim": "Wakond",
+      "ar": "3.490"
+    },
+    {
+      "id": "2",
+      "szerzo_nev": "Orosdy Dániel",
+      "termek_cim": "Halott ügyek",
+      "ar": "1.490"
+    },
+    {
+      "id": "3",
+      "szerzo_nev": "Orosdy Dániel - Schreiber András",
+      "termek_cim": "A horror mesterei: Lucio Fulci & George A. Romero",
+      "ar": "2.490"
+    },
+    {
+      "id": "4",
+      "szerzo_nev": "Schreiber András - dr. Kárpáti György (szerk.)",
+      "termek_cim": "A horrorfilm",
+      "ar": "2.490"
+    },
+    {
+      "id": "5",
+      "szerzo_nev": "Schreiber András - dr. Kárpáti György (szerk.)",
+      "termek_cim": "A sci-fi",
+      "ar": "2.490"
+    },
+    {
+      "id": "6",
+      "szerzo_nev": "Schreiber András - dr. Kárpáti György (szerk.)",
+      "termek_cim": "Az akciófilm",
+      "ar": "2.490"
+    },
+    {
+      "id": "7",
+      "szerzo_nev": "dr. Kárpáti György (szerk.)",
+      "termek_cim": "A vígjáték",
+      "ar": "2.490"
+    },
+    {
+      "id": 8,
+      "szerzo_nev": "Orosdy Dániel",
+      "termek_cim": "valami cikket szeretnék kérni tőle",
+      "ar": "20.000"
+    }
+  ]
+}

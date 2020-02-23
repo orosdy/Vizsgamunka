@@ -1,0 +1,76 @@
+<header class="Font2">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <button type="button" class="btn btn-info btn-lg" 
+        data-toggle="modal" data-target="#myModal">Rövid életrajz</button>
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title bg-dark">Orosdy Dániel</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>2004 óta publikál filmkritikákat és filmes témájú esszéket a nyomtatott sajtóban (Filmvilág, Mozinet, Prizma, 
+                        HBO Sztár, Univ Pécs) és az interneten (Sokk Magazin, film.hu, Prae portál, Kistangó etc.). A Pendulum Editor 
+                        munkatársaként több filmes témájú könyv szerkesztésében is közreműködött (Mark Cotta Vaz: <i>LOST – Az eltűntek 
+                        krónikája</i>, <i>Az 501 legfontosabb film, amit mindenképpen látnod kell</i>). 2008 és 2010 között a PTE filmszakán a 
+                        Filmkritika kurzus előadója. Életét a lehetetlen küldetésekre tette fel (pl. a William Friedkin-életmű 
+                        rehabilitálása, Bud Spencer és Terence Hill vígjátékainak beemelése a kánonba, alapvető udvariassági és 
+                        etikai normák érvényesítése a mindennapi életben). <i>Halott ügyek</i> című szatirikus regénye 2012-ben jelent meg, 
+                        Schreiber Andrással közösen jegyzett dupla monográfiája (<i>A modern horror mesterei: Lucio Fulci & George A. 
+                        Romero</i>) 2014-ben. 2019-ben a <i>Wakond</i> című bűnügyi regénnyel jelentkezett, melynek társszerzője az említett 
+                        kötetek megjelenéséért is felelős Merényi "Grafitember" Dániel, a Napirajz alkotója.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zárás</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#navmain" aria-controls="navmain" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="main-nav collapse navbar-collapse" id="navmain">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mr-2">
+                    <a routerLink="/fooldal" class="nav link">
+                        <ion-icon name="information-circle-outline"></ion-icon>&nbsp;FŐOLDAL</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a routerLink="/cikk" class="nav link">
+                        <ion-icon name="create"></ion-icon>&nbsp;ESSZÉK, CIKKEK...</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a routerLink="/prog" class="nav link">
+                        <ion-icon name="code-working"></ion-icon>&nbsp;PROGRAMOZÁS...</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a routerLink="/jog" class="nav link">
+                        <ion-icon name="folder-open"></ion-icon>&nbsp;JOG...</a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a routerLink="/rendeles" class="nav link">
+                        <ion-icon name="heart"></ion-icon><b>RENDELÉS!</b></a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a routerLink="/halottugyek" class="nav link"><i>Halott ügyek</i></a>
+                </li>
+                <li class="nav-item mr-2">
+                    <a routerLink="/fulciromero" class="nav link"><i>Fulci & Romero</i></a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+</header>
+
+<app-wakond></app-wakond>
+
+<app-halottugyek></app-halottugyek>
+
+<app-fulciromero></app-fulciromero>
